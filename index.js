@@ -4,10 +4,9 @@ console.log ("Olá mundo!")
 
 //pegarinformações do usuario
 
-let nome = prompt("Qual éseu nome?")
+const nome = prompt("Qual é seu nome?")
 const nomeDoUsuario = prompt("qual é seu sobrenome?")
+let idade = prompt("qual é sua idade?")
 
-const idade = prompt("qual é sua idade?")
-
-console.log("Olá, "mwu nome é , nomeDoUsuario, "eu tenho", idade, "anos")
+console.log("Olá, "meu nome é , nomeDoUsuario, "eu tenho", idade, "anos")
 
