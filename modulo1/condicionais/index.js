@@ -174,19 +174,14 @@ ___________________________________________________________
 // Caso positivo, imprima no console a mensagem: "Bom filme!", 
 // caso contrário, imprima "Escolha outro filme :("
 
-let generoDoFilme = prompt("Qual genero do Filme você vai assistir?")
-let precoDoFilme = prompt("Qual o valor do filme?")
+const generoDoFilme = prompt("Qual genero do Filme você vai assistir?")
+const precoDoFilme = prompt("Qual o valor do filme?")
 
-if(generoDoFilme !== "fantasia") {
+if(generoDoFilme === "fantasia" && precoDoFilme <= "15" ) {
   console.log("Bom filme!")
-} else { 
-
-if (generoDoFilme <= "15") {
-    console.log("Bom filme!");
 } else  {
     console.log("Escolha outro genero de filme!")
   }
-}
 
 
 ___________________________________________________________
