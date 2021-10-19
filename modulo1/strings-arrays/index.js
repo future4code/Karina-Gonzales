@@ -77,7 +77,7 @@ console.log(cincoComidas[4])
 
 //c)
 const comidausuario = prompt("qual é a sua comida favorita?")
-array i = 1
+arrayi = 1
 array[i] = comidausuario
 
 console.log("Essas são as minhas 5 comidas Favoritas:")
