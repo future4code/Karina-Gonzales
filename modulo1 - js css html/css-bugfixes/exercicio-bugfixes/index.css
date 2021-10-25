@@ -34,7 +34,7 @@ div>p:first-child {
 }
 
 div img {
-    background: black;
+  
 }
 
 .botao-amarelo {
@@ -112,7 +112,9 @@ div:last-child {
 }
 
 table {
-    width: 60%;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 td button {
@@ -125,14 +127,10 @@ td button {
 }
 
 td {
-    padding: 15px 0px;
     text-align: center;
-    position: center;
-    height: 500% ;
-    width: 500%;
-
-
-
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 .container-do-search {
@@ -156,3 +154,17 @@ td {
     background-color: #635a3d
 }
 
+.container img {
+    max-width: 200px;
+    max-height:250px;
+    
+}
+.container {
+    clear: both;
+    margin-top: 20px;
+}
+img {
+    vertical-align: top;
+    width: 30px;
+    
+}
