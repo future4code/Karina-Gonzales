@@ -121,11 +121,24 @@ td button {
     height: 30px;
     border-radius: 5px;
     color: black;
+    
 }
+
+td {
+    padding: 15px 0px;
+    text-align: center;
+    position: center;
+    height: 500% ;
+    width: 500%;
+
+
+
+  }
 
 .container-do-search {
     margin-top: 20px;
     height: 100px;
+    
 }
 
 
@@ -142,3 +155,4 @@ td button {
 #back-button:hover {
     background-color: #635a3d
 }
+
