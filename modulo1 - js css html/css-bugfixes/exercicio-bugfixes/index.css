@@ -40,7 +40,7 @@ div img {
 .botao-amarelo {
     background-color: #ffaf43;
     width: 250px;
-    position: bottom;
+    position: relative;
     height: 40px;
     border-radius: 5px;
     font-size: 20px;
@@ -72,15 +72,28 @@ div img {
     color: white;
 }
 
-#container-de-descricao>ol {
+#container-de-descricao {
     padding: 15px 0px;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
 }
 
-#container-para-comprar {
+#container-bora {
     background-color: #e7eb90;
 }
+#container-bora{
+    color: #c44f00;
+    padding: 100px 0;
+    font-size: 60px;
 
-#container-para-comprar>p {
+}
+
+
+
+#container-para-comprar {
     color: #c44f00;
     padding: 100px 0;
     font-size: 60px;
