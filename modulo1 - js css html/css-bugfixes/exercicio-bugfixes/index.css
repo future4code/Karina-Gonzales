@@ -34,7 +34,7 @@ div>p:first-child {
 }
 
 div img {
-  
+    background: #ffff;
 }
 
 .botao-amarelo {
@@ -98,6 +98,15 @@ div img {
     padding: 100px 0;
     font-size: 60px;
 }
+
+.botao-comprar:hover {
+    background-color: #c44f00;
+}
+
+.botao-comprar:active{
+    background-color:white;
+}
+
 
 
 /**
